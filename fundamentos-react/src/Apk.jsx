@@ -1,6 +1,9 @@
 import './App.css'
 import React from 'react'
 
+
+import TabelaProdutos from './components/repeticao/TabelaProdutos'
+import ListaAlunos from './components/repeticao/ListaAlunos'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import Familia from './components/basicos/Familia'
 import Card from './components/layout/Card'
@@ -21,12 +24,23 @@ export default _ =>
 
         <div className='Cards'>
 
-            <Card titulo="#05 - Componente com Filhos " color='#6495ED'>
-                <Familia sobrenome="Ferreira">
+            <Card titulo="#07 - Desafio repetição " color='#CCCCFF'>
 
-                    <FamiliaMembro nome="Marcelo"  />                  
-                    <FamiliaMembro nome="Nadia"  />
-                    <FamiliaMembro nome="Brenda"  />
+                <TabelaProdutos></TabelaProdutos>
+
+            </Card>
+
+            <Card titulo="#06 - Repetição " color='#550D18'>
+
+                <ListaAlunos></ListaAlunos>
+
+            </Card>
+            <Card titulo="#05 - Componente com Filhos " color='#6495ED'>
+                <Familia sobrenome="Rocha">
+
+                    <FamiliaMembro nome="Marcelo" />
+                    <FamiliaMembro nome="Nadia" />
+                    <FamiliaMembro nome="Brenda" />
 
                 </Familia>
             </Card>
