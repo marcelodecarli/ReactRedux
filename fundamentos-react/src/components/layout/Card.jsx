@@ -1,6 +1,5 @@
 import "./Card.css"
 import React from "react";
-import Aleatorio from "../basicos/Aleatorio";
 
 
 export default props => {

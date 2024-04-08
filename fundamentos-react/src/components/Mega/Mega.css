@@ -1,0 +1,54 @@
+.Mega label {
+    margin-right: 10px;
+    
+}
+.Mega input {
+    font-size: 1.4rem;
+    width:50px;
+}
+
+
+.Mega .NumerosGerados {
+    background-color: rgb(100, 88, 68);
+    font-size: 1.4rem;
+    padding: 3px;
+    border: solid 2px;
+    border-radius: 10px;
+    margin: 10px 15px 10px 15px;
+    
+}
+
+.numberCircle {
+    padding: 2px;
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border: 2px solid #000000;
+    margin: 1px 1px 1px 1px;
+    background-color: #cbdf56;
+    display: inline-block;
+    color: #000000;
+   
+}
+
+.Mega button{
+    border: #000000 solid 3px;
+    border-radius: 5px;
+    font-size: large;
+    margin: 20px;
+    cursor:pointer;
+    transition: 2s;
+}
+
+.Mega button {
+    background-color: #9d9cc4;
+    cursor:pointer;
+    transition: 1s;
+}
+
+.Mega button:hover{
+    background-color: rgb(235, 144, 33);
+    cursor:pointer;
+    transition: 1s;
+}

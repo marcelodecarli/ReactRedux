@@ -18,7 +18,6 @@ export default function Aleatorio(props) {
             <p><strong>Valor mínimo = </strong> {min}</p>
             <p><strong>Valor máximo = </strong> {max}</p>
             <p><strong>Valor sorteado = </strong> {aleatorio}</p>
-
         </div>
     )
 }

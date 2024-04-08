@@ -1,6 +1,6 @@
 .Card{
     border: 3px solid;
-    border-radius: 10px;
+    border-radius: 25px;
     overflow: hidden;
     margin: 10px;
     display: flex;
@@ -11,15 +11,15 @@
 }
 
 .Card .Title{
-    padding: 10px 5px ;
+    padding: 5px 0px ;
     display: flex;
     justify-content: center;
-
 }
 
 .Card .Content{
     flex-grow: 1;
-    background-color: rgb(255, 255, 255) ;
+    background-color: #ffffff ;
     color: black;
     padding: 10px;
+
 }
